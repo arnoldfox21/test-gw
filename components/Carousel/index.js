@@ -16,7 +16,7 @@ export default function Carousel({
     <div className="sm:p-16 p-2 pt-8 sm:pr-0 relative">
       <div className="text-xl text-white font-bold pb-5">Locations</div>
       <div className="w-full flex sm:flex-row flex-col h-96 z-20">
-        <div className="sm:w-4/6 w-full h-full relative overflow-hidden">
+        <div className="sm:w-4/6 w-full h-full relative">
           <div className="absolute top-5 sm:-right-6 right-0 z-30 flex flex-col gap-y-3">
             <button
               className="p-3 rounded-full hover:scale-105 ease-in-out transition-all duration-100"
