@@ -23,9 +23,9 @@ export default function Home() {
     setScrollData(defaultScroll);
   };
 
-  const getCssClass = (key) => {
+  const getStyle = (key) => {
     if (key === activeItem.key) {
-      return `!bg-[${mainColor}] border border-white`;
+      return { background: mainColor }
     }
   };
 
@@ -109,12 +109,13 @@ export default function Home() {
           >
             {TIMELINE.map((item, i) => (
               <button
-                className={`item-carousel ${getCssClass(item?.key)}`}
+                className="item-carousel"
                 onClick={() => selectRGE(item, i)}
                 key={item.key}
                 id={item.id}
                 style={{
                   transform: `rotate(${invertNumber(activeItem.position)}deg)`,
+                  ...getStyle(item?.key)
                 }}
               >
                 {isShowText(i) && (
