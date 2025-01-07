@@ -76,7 +76,7 @@ export default function Carousel({
         <svg height="500" width="780" xmlns="http://www.w3.org/2000/svg">
           <path
             id="lineAC"
-            d="M -14 350 q 400 -300 920 0"
+            d="M -14 180 q 400 -300 920 0"
             stroke="#4863ac"
             fill="none"
             stroke-width="44"
