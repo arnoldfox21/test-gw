@@ -66,7 +66,7 @@ export default function Carousel({
         <div className="absolute z-0 flex w-full sm:justify-end justify-center bottom-4 opacity-50">
           <Hexagon />
         </div>
-        <div className="bg-[#4d73b6] z-10 rounded-xl bg-opacity-70 min-h-[320px] sm:w-4/6 w-full text-white sm:p-20 p-4 sm:pr-32">
+        <div className="bg-[#4d73b6] z-10 rounded-xl bg-opacity-70 h-[320px] sm:w-4/6 w-full text-white sm:p-20 p-4 sm:pr-32">
           <div className="font-bold text-2xl pb-4">
             {activeItem?.timeline[scrollData.index]?.title}
           </div>
