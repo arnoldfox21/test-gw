@@ -17,21 +17,14 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .carousel {
-  position: relative;
-  width: 364px;
-  height: 364px;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
   transition: .5s;
   transform-origin: center center;
 }
 
 .carousel::before {
-  /* content: ""; */
   position: absolute;
   width: 50%;
   height: 100%;
@@ -40,18 +33,8 @@ body {
 }
 
 .item-carousel {
-  position: absolute;
-  border-radius: 50%;
-  border: 1px solid white;
-  background: #fff;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 14px;
   margin: 2px;
-  bottom: 0;
   transition: .5s;
 
   &:nth-child(1) {
