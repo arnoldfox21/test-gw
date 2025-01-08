@@ -6,8 +6,7 @@ const TIMELINE = [
     position: 17,
     description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
     As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
-    Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.
-    Sophie found her muse in Pierre and the city's je ne sais quoi. As they danced under the Eiffel Tower's twinkling lights, Pierre whispered, "Je t'aime, Sophie. France will forever be our home."`,
+    Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.`,
     timeline: [
       {
         title: "French Revolution (1789-1799)",

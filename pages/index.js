@@ -65,7 +65,7 @@ export default function Home() {
     <div
       className={`${urbanistSans.className} bg-[#242424] min-h-screen flex w-full flex-col`}
     >
-      <div className="py-10 px-20 font-bold text-3xl text-white">TIMELINE</div>
+      <div className="py-10 px-16 font-bold text-3xl text-white">TIMELINE</div>
       {/* timeline section */}
       <Timeline activeItem={activeItem} selectRGE={selectRGE} mainColor={mainColor} />
       <Carousel

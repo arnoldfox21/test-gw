@@ -1,3 +1,4 @@
 import ArrowRight from "./ArrowRight";
+import Hexagon from "./Hexagon";
 
-export { ArrowRight }
+export { ArrowRight, Hexagon }

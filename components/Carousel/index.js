@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight } from "@/icons";
+import { ArrowRight, Hexagon } from "@/icons";
 
 export default function Carousel({
   onPressNavigation,
@@ -14,7 +14,7 @@ export default function Carousel({
 
   return (
     <div className="sm:p-16 p-2 pt-8 sm:pr-0 relative">
-      <div className="text-xl text-white font-bold pb-5">Locations</div>
+      <div className="font-bold text-3xl text-white pb-5">LOCATIONS</div>
       <div className="w-full flex sm:flex-row flex-col h-96 z-20">
         <div className="sm:w-4/6 w-full h-full relative">
           <div className="absolute top-5 sm:-right-6 right-0 z-30 flex flex-col gap-y-3">
@@ -62,8 +62,11 @@ export default function Carousel({
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-end z-10 sm:-mt-[44px] mt-28">
-        <div className="bg-[#4d73b6] z-10 rounded-xl bg-opacity-70 min-h-56 sm:w-4/6 w-full text-white sm:p-20 p-4 sm:pr-32">
+      <div className="w-full flex justify-end z-10 sm:-mt-[44px] mt-28 relative">
+        <div className="absolute z-0 flex w-full sm:justify-end justify-center bottom-4 opacity-50">
+          <Hexagon />
+        </div>
+        <div className="bg-[#4d73b6] z-10 rounded-xl bg-opacity-70 min-h-[320px] sm:w-4/6 w-full text-white sm:p-20 p-4 sm:pr-32">
           <div className="font-bold text-2xl pb-4">
             {activeItem?.timeline[scrollData.index]?.title}
           </div>
@@ -73,7 +76,7 @@ export default function Carousel({
         </div>
       </div>
       <div className="-rotate-90 overflow-hidden absolute top-[140px] z-0 right-0">
-        <svg height="500" width="780" xmlns="http://www.w3.org/2000/svg">
+        <svg height="500" className="z-0" width="780" xmlns="http://www.w3.org/2000/svg">
           <path
             id="lineAC"
             d="M -14 180 q 400 -300 920 0"
