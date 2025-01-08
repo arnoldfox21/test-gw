@@ -79,7 +79,7 @@ export default function Carousel({
             d="M -14 180 q 400 -300 920 0"
             stroke="#4863ac"
             fill="none"
-            stroke-width="44"
+            strokeWidth="44"
           />
         </svg>
       </div>

@@ -24,7 +24,7 @@ export default function Timeline({ activeItem, selectRGE, mainColor }){
         <div className="w-full z-30 flex justify-end">
           <div className="w-3/5 z-30 text-white flex flex-col">
             <div className="w-4/5 py-16">
-              <div className="font-bold pb-5 text-xl">{activeItem?.title}</div>
+              <div className="font-bold pb-5 text-xl">{activeItem?.name?.toUpperCase()}</div>
               <div className="text-lg line-clamp-6 md:line-clamp-none">
                 {activeItem?.description}
               </div>

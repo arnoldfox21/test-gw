@@ -2,7 +2,7 @@ const TIMELINE = [
   {
     title: "3312 R.G.E",
     key: "fr",
-    name: 'france',
+    name: "france",
     position: 17,
     description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
     As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
@@ -37,7 +37,7 @@ const TIMELINE = [
     title: "3385 R.G.E",
     position: -19,
     key: "id",
-    name: 'indonesia',
+    name: "indonesia",
     description: `In 1945, young Joko, from Yogyakarta, joined Indonesia's fight for independence. Armed with a bamboo spear, he marched alongside Sukarno's forces against Dutch colonial rule.
     In the Battle of Magelang, Joko saved his commander's life. Sukarno praised his bravery, saying, "Your courage inspires our nation!"
     Joko's village celebrated his heroism. His mother smiled, "My son, you've made our ancestors proud."
@@ -71,11 +71,12 @@ const TIMELINE = [
     title: "3285 R.G.E",
     position: -53,
     key: "us",
-    name: 'usa',
-    description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
-    As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
-    Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.
-    Sophie found her muse in Pierre and the city's je ne sais quoi. As they danced under the Eiffel Tower's twinkling lights, Pierre whispered, "Je t'aime, Sophie. France will forever be our home."`,
+    name: "usa",
+    description: `In 1920s New Orleans, Jackson "Jax" Thompson, a talented trumpet player, performed in smoky jazz clubs. His music echoed the city's vibrant spirit.
+    One rainy night, Jax met Emily, a charming singer. Together, they created enchanting melodies.
+    Jax's big break came when Louis Armstrong invited him to play at the iconic Preservation Hall.
+    As Jax took the stage, Emily whispered, "Make them remember your name."
+    With every note, Jax poured his heart out. The audience roared.`,
     timeline: [
       {
         title: "American Revolution (1775-1783)",
@@ -104,11 +105,12 @@ const TIMELINE = [
     title: "3185 R.G.E",
     position: -89,
     key: "cn",
-    name: 'china',
-    description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
-    As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
-    Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.
-    Sophie found her muse in Pierre and the city's je ne sais quoi. As they danced under the Eiffel Tower's twinkling lights, Pierre whispered, "Je t'aime, Sophie. France will forever be our home."`,
+    name: "china",
+    description: `In ancient Hangzhou, Ling, a talented silk painter, lived near West Lake. One day, a mysterious stranger commissioned a silk scroll with a jade green phoenix.
+    Ling worked tirelessly, infusing the painting with magic. Upon completion, the stranger vanished, leaving a cryptic message:
+    "For the one who seeks balance."
+    Months passed. Ling's art studio flourished. One evening, a young monk arrived.
+    "The phoenix's wisdom guides me," he said. "I seek harmony between yin and yang."`,
     timeline: [
       {
         title: "Qin Shi Huang Unifies China (221 BCE)",
@@ -137,12 +139,14 @@ const TIMELINE = [
   {
     title: "3085 R.G.E",
     key: "ru",
-    name: 'rusia',
+    name: "rusia",
     position: -125,
-    description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
-    As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
-    Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.
-    Sophie found her muse in Pierre and the city's je ne sais quoi. As they danced under the Eiffel Tower's twinkling lights, Pierre whispered, "Je t'aime, Sophie. France will forever be our home."`,
+    description: `
+    In the frosty winter of 1910, Maria, a young ballerina, danced through the snow-covered streets of St. Petersburg. She rushed to the Imperial Russian Ballet for her audition.
+    As she entered the theater, Maria's eyes met those of Sergei, a charming composer. His music echoed through the halls, entrancing her.
+    Maria's performance dazzled the judges. Sergei approached her:
+    "Your dance is as elegant as the Neva River," he said.
+    Maria blushed. "Your music is as beautiful as the snowfall."`,
     timeline: [
       {
         title: "Peter the Great's Reforms (1682-1725)",
@@ -171,12 +175,11 @@ const TIMELINE = [
   {
     title: "3485 R.G.E",
     key: "en",
-    name: 'england',
+    name: "england",
     position: -161,
-    description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
-    As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
-    Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.
-    Sophie found her muse in Pierre and the city's je ne sais quoi. As they danced under the Eiffel Tower's twinkling lights, Pierre whispered, "Je t'aime, Sophie. France will forever be our home."`,
+    description: `In a quaint London shop, clockmaker James Elliot wound the mechanisms of antique timepieces. One evening, while repairing a 19th-century pocket watch, he discovered a hidden compartment.
+    Inside, a faded letter addressed to "My dearest" spoke of love, loss and a promise made beneath Big Ben's chiming bells. Intrigued, James searched for the owner.
+    His quest led him to Emily, a charming librarian. Together, they unraveled the mystery, following clues from Covent Garden to the Tower of London.`,
     timeline: [
       {
         title: "Norman Conquest (1066)",
@@ -206,29 +209,29 @@ const TIMELINE = [
 
 const SLIDES = [
   {
-    key: 'ru',
-    image: '/images/rusia/rusia.jpeg'
+    key: "ru",
+    image: "/images/rusia/rusia.jpeg",
   },
   {
-    key: 'id',
-    image: '/images/indonesia/id.jpeg'
+    key: "id",
+    image: "/images/indonesia/id.jpeg",
   },
   {
-    key: 'cn',
-    image: '/images/china/china.jpeg'
+    key: "cn",
+    image: "/images/china/china.jpeg",
   },
   {
-    key: 'us',
-    image: '/images/usa/usa.jpeg'
+    key: "us",
+    image: "/images/usa/usa.jpeg",
   },
   {
-    key: 'en',
-    image: '/images/england/england.jpeg'
+    key: "en",
+    image: "/images/england/england.jpeg",
   },
   {
-    key: 'fr',
-    image: '/images/france/france.jpeg'
+    key: "fr",
+    image: "/images/france/france.jpeg",
   },
-]
+];
 
-export { TIMELINE, SLIDES }
+export { TIMELINE, SLIDES };
