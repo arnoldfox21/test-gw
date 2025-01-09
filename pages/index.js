@@ -21,9 +21,12 @@ export default function Home() {
 
   const selectRGE = (item, index) => {
     setActiveItem({ ...item, index });
+    // reset slider if position index > 0
+    if (scrollData?.index > 0) {
+      refSlider?.current?.scrollTo({ left: 0, behavior: "smooth" });
+    }
     setScrollData(defaultScroll);
   };
-
 
   const generateQuery = (pos, isIncrease = false) => {
     if (isIncrease) {
@@ -67,7 +70,11 @@ export default function Home() {
     >
       <div className="py-10 px-16 font-bold text-3xl text-white">TIMELINE</div>
       {/* timeline section */}
-      <Timeline activeItem={activeItem} selectRGE={selectRGE} mainColor={mainColor} />
+      <Timeline
+        activeItem={activeItem}
+        selectRGE={selectRGE}
+        mainColor={mainColor}
+      />
       <Carousel
         activeItem={activeItem}
         scrollData={scrollData}

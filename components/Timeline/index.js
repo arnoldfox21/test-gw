@@ -46,7 +46,7 @@ export default function Timeline({ activeItem, selectRGE, mainColor }){
 
         <div className="absolute h-full flex items-center sm:-ml-32 -ml-60 top-0 z-20">
           <div
-            className="carousel relative w-[364px] h-[364px] border-2 rounded-full border-white"
+            className="carousel relative w-[364px] h-[364px] border-2 rounded-full border-white dark:border-white"
             style={{ transform: `rotate(${activeItem.position}deg)` }}
           >
             {TIMELINE.map((item, i) => (
