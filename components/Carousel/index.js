@@ -54,7 +54,7 @@ export default function Carousel({
           <div className="p-6 bg-[#323232] sm:w-2/3 w-full rounded-l-xl sm:rounded-r-none rounded-r-xl flex justify-center sm:justify-start">
             <button
               style={{ borderColor: mainColor, color: mainColor }}
-              className="rounded-full border p-2 px-4"
+              className="rounded-full border-2 p-2 px-4 font-bold"
               onClick={handleOpenMap}
             >
               View Map
