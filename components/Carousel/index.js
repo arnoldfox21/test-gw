@@ -63,7 +63,7 @@ export default function Carousel({
         </div>
       </div>
       <div className="w-full flex justify-end z-10 sm:-mt-[44px] mt-28 relative">
-        <div className="absolute z-0 flex w-full sm:justify-end justify-center bottom-4 opacity-50">
+        <div className="absolute z-0 flex w-full sm:justify-end justify-center h-full items-center opacity-25">
           <Hexagon />
         </div>
         <div className="bg-[#4d73b6] z-10 rounded-xl bg-opacity-70 h-[320px] sm:w-4/6 w-full text-white sm:p-20 p-4 sm:pr-32">
@@ -76,7 +76,12 @@ export default function Carousel({
         </div>
       </div>
       <div className="-rotate-90 overflow-hidden absolute top-[140px] z-0 right-0">
-        <svg height="500" className="z-0" width="780" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          height="500"
+          className="z-0"
+          width="780"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <path
             id="lineAC"
             d="M -14 180 q 400 -300 920 0"
