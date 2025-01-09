@@ -24,8 +24,8 @@ export default function Home() {
     // reset slider if position index > 0
     if (scrollData?.index > 0) {
       refSlider?.current?.scrollTo({ left: 0, behavior: "smooth" });
+      setScrollData(defaultScroll);
     }
-    setScrollData(defaultScroll);
   };
 
   const generateQuery = (pos, isIncrease = false) => {
