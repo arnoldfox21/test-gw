@@ -38,27 +38,27 @@ body {
   transition: .5s;
 
   &:nth-child(1) {
-    right: 1px;
-    top: 96px;
+    right: 40px;
+    top: 40px;
   }
   &:nth-child(2) {
-    right: -8px;
-    top: 213px;
+    right: -12px;
+    top: 171px;
   }
   &:nth-child(3) {
-    right: 60px;
-    top: 314px;
+    right: 40px;
+    top: 295px;
   }
   &:nth-child(4) {
-    right: 181px;
-    top: 347px;
+    right: 168px;
+    top: 349px;
   }
   &:nth-child(5) {
-    right: 289px;
-    top: 301px;
+    right: 295px;
+    top: 295px;
   }
   &:nth-child(6) {
-    right: 345px;
-    top: 206px;
+    right: 348px;
+    top: 169px;
   }
 }

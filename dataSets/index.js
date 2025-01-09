@@ -3,7 +3,7 @@ const TIMELINE = [
     title: "3312 R.G.E",
     key: "fr",
     name: "france",
-    position: 17,
+    position: 45,
     description: `In the charming Parisian café, "Le Coeur de la Vie," Sophie sipped coffee, gazing out at the Eiffel Tower. A young artist, she had just arrived from Provence, seeking inspiration.
     As she sketched, a handsome stranger, Pierre, struck up a conversation. Together, they strolled along the Seine, discovering hidden treasures: Notre-Dame's Gothic grandeur, Montmartre's bohemian charm.
     Their whirlwind romance unfolded amidst France's breathtaking beauty: sun-kissed vineyards, medieval castles, and Impressionist landscapes.`,
@@ -34,7 +34,7 @@ const TIMELINE = [
   },
   {
     title: "3385 R.G.E",
-    position: -19,
+    position: 0,
     key: "id",
     name: "indonesia",
     description: `In 1945, young Joko, from Yogyakarta, joined Indonesia's fight for independence. Armed with a bamboo spear, he marched alongside Sukarno's forces against Dutch colonial rule.
@@ -68,7 +68,7 @@ const TIMELINE = [
   },
   {
     title: "3285 R.G.E",
-    position: -53,
+    position: -45,
     key: "us",
     name: "usa",
     description: `In 1920s New Orleans, Jackson "Jax" Thompson, a talented trumpet player, performed in smoky jazz clubs. His music echoed the city's vibrant spirit.
@@ -102,7 +102,7 @@ const TIMELINE = [
   },
   {
     title: "3185 R.G.E",
-    position: -89,
+    position: -90,
     key: "cn",
     name: "china",
     description: `In ancient Hangzhou, Ling, a talented silk painter, lived near West Lake. One day, a mysterious stranger commissioned a silk scroll with a jade green phoenix.
@@ -139,7 +139,7 @@ const TIMELINE = [
     title: "3085 R.G.E",
     key: "ru",
     name: "rusia",
-    position: -125,
+    position: -135,
     description: `
     In the frosty winter of 1910, Maria, a young ballerina, danced through the snow-covered streets of St. Petersburg. She rushed to the Imperial Russian Ballet for her audition.
     As she entered the theater, Maria's eyes met those of Sergei, a charming composer. His music echoed through the halls, entrancing her.
@@ -175,7 +175,7 @@ const TIMELINE = [
     title: "3485 R.G.E",
     key: "en",
     name: "england",
-    position: -161,
+    position: -180,
     description: `In a quaint London shop, clockmaker James Elliot wound the mechanisms of antique timepieces. One evening, while repairing a 19th-century pocket watch, he discovered a hidden compartment.
     Inside, a faded letter addressed to "My dearest" spoke of love, loss and a promise made beneath Big Ben's chiming bells. Intrigued, James searched for the owner.
     His quest led him to Emily, a charming librarian. Together, they unraveled the mystery, following clues from Covent Garden to the Tower of London.`,

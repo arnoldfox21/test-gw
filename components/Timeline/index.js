@@ -44,7 +44,7 @@ export default function Timeline({ activeItem, selectRGE, mainColor }){
           ))}
         </div>
 
-        <div className="absolute h-full flex items-center sm:-ml-36 -ml-60 top-0 z-20">
+        <div className="absolute h-full flex items-center sm:-ml-32 -ml-60 top-0 z-20">
           <div
             className="carousel relative w-[364px] h-[364px] border-2 rounded-full border-white"
             style={{ transform: `rotate(${activeItem.position}deg)` }}
