@@ -17,7 +17,7 @@ export default function Carousel({
       <div className="font-bold text-3xl text-white pb-5">LOCATIONS</div>
       <div className="w-full flex sm:flex-row flex-col h-96 z-20">
         <div className="sm:w-4/6 w-full h-full relative">
-          <div className="absolute top-5 sm:-right-6 right-0 z-30 flex flex-col gap-y-3">
+          <div className="absolute top-5 sm:-right-6 right-2 z-30 flex flex-col gap-y-3">
             <button
               className="p-3 rounded-full hover:scale-105 ease-in-out transition-all duration-100"
               onClick={() => onPressNavigation()}
@@ -50,7 +50,7 @@ export default function Carousel({
             ))}
           </div>
         </div>
-        <div className="sm:w-2/6 w-full flex h-full justify-end items-end z-20">
+        <div className="sm:w-2/6 w-full sm:mt-0 mt-2 flex h-full justify-end items-end z-20">
           <div className="p-6 bg-[#323232] sm:w-2/3 w-full rounded-l-xl sm:rounded-r-none rounded-r-xl flex justify-center sm:justify-start">
             <button
               style={{ borderColor: mainColor, color: mainColor }}
