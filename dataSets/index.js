@@ -28,7 +28,7 @@ const TIMELINE = [
       {
         title: "Liberation of France (1944-1945)",
         image: "/images/france/story-4.jpeg",
-        description: `On D-Day (June 6, 1944), Allied forces landed in Normandy. General Charles de Gaulle led the French Resistance. Paris was liberated August 25, 1944. De Gaulle declared, "Paris, Paris outraged! Paris broken! Paris martyred! But Paris liberated!" France reclaimed sovereignty.`,
+        description: `On D-Day (June 6, 1944), Allied forces landed in Normandy. General Charles de Gaulle led the French Resistance. Paris was liberated August 25, 1944. De Gaulle declared, "Paris, Paris outraged!`,
       },
     ],
   },
